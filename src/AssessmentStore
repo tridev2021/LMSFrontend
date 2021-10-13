@@ -1,0 +1,7 @@
+import AssessmentSubmissionService from "./services/AssessmentSubmissionService"
+
+
+export const AssessmentSubmissionStore = (data) =>{
+   
+    return AssessmentSubmissionService.saveAboutUs(data);
+}
